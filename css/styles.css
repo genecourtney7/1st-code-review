@@ -10,7 +10,6 @@ h2 {
   font-size: small;
 }
 p1 {
-  text-align: center;
   font-size: xx-small;
 }
 #title {
@@ -32,9 +31,9 @@ img {
   display: flex;
 }
 .photo { 
-    flex: 1;
     height: fit-content;
     width: fit-content;
+    float: left;
 }
 .education {
   flex: 2;
@@ -46,7 +45,7 @@ img {
   flex: 1;
 }
 .projects {
-  flex: 4;
+  float: right;
 }
 .email {
   flex: 1;
