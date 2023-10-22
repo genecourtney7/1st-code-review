@@ -1,17 +1,54 @@
-h {
+h1 {
   text-align: center;
+  font-size: large;
+}
+h2 {
+  text-align: center;
+  font-size: small;
+}
+p1 {
+  font-size: xx-small;
 }
 #title {
   text-align: center;
 }
-.photo {
-    width: 100px;
-    height: 140px;
-    border-style: ridge;
-    border: 5px solid   black;
-}
 img {
   width: 100%;
-  height: 100%;
+  border: 5px solid black;
 }
+.row1 {
+  text-align: center;
+  display: flex;
+}
+.row2 {
+  text-align: center;
+  display: flex;
+}
+.row3 {
+  text-align: center;
+  display: flex;
+}
+.photo { 
+    flex: 1;
+    height: fit-content;
+    width: fit-content;
+}
+.education {
+  flex: 2;
+}
+.expirence {
+  flex: 3;
+}
+.hobbies {
+  flex: 1;
+}
+.email {
+  flex: 1;
+  text-align: center;
+}
+.phone {
+  flex: 2;
+  text-align: center;
+}
+
   
