@@ -1,0 +1,17 @@
+h {
+  text-align: center;
+}
+#title {
+  text-align: center;
+}
+.photo {
+    width: 100px;
+    height: 140px;
+    border-style: ridge;
+    border: 5px solid   black;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+  
