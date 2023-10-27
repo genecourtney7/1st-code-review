@@ -24,11 +24,13 @@ img {
   display: flex;
 }
 .row2 {
-  
   display: flex;
 }
 .row3 {
   display: flex;
+}
+.aboutMe {
+  text-align: center;
 }
 .photo { 
     height: fit-content;
